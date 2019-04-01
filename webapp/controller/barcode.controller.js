@@ -6,6 +6,7 @@ sap.ui.define([
 
 	return Controller.extend("signupzcreate.controller.barcode", {
 		onInit: function(){
+			//Git hub demo
 			var oModel = new sap.ui.model.json.JSONModel(jQuery.sap.getModulePath("signupzcreate.model", "/Data.json"));
 			this.getView().setModel(oModel);
 		/*	var map =this.getView().byId("vbi");
